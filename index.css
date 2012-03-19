@@ -46,3 +46,55 @@ table {
 .tableTitle {
 	font-weight: bold;
 }
+
+.job {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	display: inline;
+	margin: 10px;
+}
+
+.jobTitle {
+	font-weight: bold;
+	font-size: 1.1em;
+	display: inline;
+}
+
+.jobPosition {
+	font-style: italic;
+	display: inline;
+}
+
+.jobAddress:before {
+	content: "Address: ";
+}
+
+.jobPhone:before {
+	content: "Business Phone Number: ";
+}
+
+.jobStartDate {
+	display: inline;
+}
+
+.jobStartDate:before {
+	content: "Time of Employment: ";
+}
+
+.jobEndDate:before {
+	content: " - ";
+}
+
+.jobEndDate {
+	display: inline;
+}
+
+.jobPay:before {
+	content: "Pay Rate: ";
+}
+
+.jobHours:before {
+	content: "Hours Worked: ";
+}
